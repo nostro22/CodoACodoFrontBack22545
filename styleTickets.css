@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.fondo{
+    height: 65vh;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.text-decoracion{
+    text-decoration:underline dotted;
+}
+
+.card-group , #formulario{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+#codoCodo{
+    height: 5rem;
+}
+.fondoFotter{
+   
+    background-color: rgb(4, 71, 71);
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
